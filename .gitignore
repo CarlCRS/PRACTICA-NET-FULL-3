@@ -1,0 +1,20 @@
+cat << 'EOF' > .gitignore
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Build & Compilación .NET
+bin/
+obj/
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+
+# Archivos de entorno y logs
+*.log
+EOF
